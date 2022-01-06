@@ -1,11 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "paste-image-from-clipboard",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public -p 2333"
+    "start": "rollup -c -w",
+    "serve": "sirv public --no-clear"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
